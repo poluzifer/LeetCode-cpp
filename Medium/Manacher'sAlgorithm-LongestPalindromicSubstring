@@ -5,7 +5,7 @@ public:
         for (char ch :s){
             T+= "#" + string(1,ch);
         }
-        T+= "%"; //T = &#b#a#b#a#d#% например
+        T+= "#%"; //T = &#b#a#b#a#d#% например
         vector<int> rad(T.length(),0);
         int center = 0, right = 0;
 
